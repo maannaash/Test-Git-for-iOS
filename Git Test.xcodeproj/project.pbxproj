@@ -14,6 +14,7 @@
 		4E89C0FF1A4A5F2800118C44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E89C0FE1A4A5F2800118C44 /* Images.xcassets */; };
 		4E89C1021A4A5F2800118C44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E89C1001A4A5F2800118C44 /* LaunchScreen.xib */; };
 		4E89C10E1A4A5F2800118C44 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89C10D1A4A5F2800118C44 /* Git_TestTests.m */; };
+		4E89C1191A4B9C0500118C44 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89C1181A4B9C0500118C44 /* Test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4E89C1071A4A5F2800118C44 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E89C10C1A4A5F2800118C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E89C10D1A4A5F2800118C44 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4E89C1171A4B9C0500118C44 /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		4E89C1181A4B9C0500118C44 /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		4E89C0E51A4A5F2800118C44 = {
 			isa = PBXGroup;
 			children = (
+				4E89C1171A4B9C0500118C44 /* Test1.h */,
+				4E89C1181A4B9C0500118C44 /* Test1.m */,
 				4E89C0F01A4A5F2800118C44 /* Git Test */,
 				4E89C10A1A4A5F2800118C44 /* Git TestTests */,
 				4E89C0EF1A4A5F2800118C44 /* Products */,
@@ -222,6 +227,7 @@
 				4E89C0FA1A4A5F2800118C44 /* ViewController.m in Sources */,
 				4E89C0F71A4A5F2800118C44 /* AppDelegate.m in Sources */,
 				4E89C0F41A4A5F2800118C44 /* main.m in Sources */,
+				4E89C1191A4B9C0500118C44 /* Test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
